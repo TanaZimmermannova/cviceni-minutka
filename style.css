@@ -10,6 +10,7 @@ html {
 
 body {
   display: flex;
+  flex-direction: column;
   background-color: #4ecdc4;
 }
 
@@ -46,4 +47,10 @@ body {
 
 .alarm--ring {
   animation: ring 100ms 50;
+}
+
+.stop,
+.start {
+  margin: 20px auto 20px auto;
+  padding: 10px;
 }
